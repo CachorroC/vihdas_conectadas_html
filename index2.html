@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>VIHdas Conectadas</title>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css">
+        <link rel="icon" type="image/png" href="https://i.ibb.co/3YBGY4F/favicon.png" />
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
+        <!--estilos del tema del tooltip-->
+        <link rel="stylesheet" type="text/css"
+            href="css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css">
+        <!--estilos tooltipster-->
+        <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css">
+        <!--fontawesome-->
+        <script src="https://kit.fontawesome.com/e0d9fec7f5.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body onload="myLoaderfunction()" id="cuerpa">
+        <div class="scrollIndicator" id="myScroll">
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+
+        <div class="header" id="header2">
+
+            <div id="loader">
+                <img src="img/loader.png" width="100%" height="100%">
+            </div>
+
+            <div style="display:none;" id="sigaLeyendo">
+
+                <a href="#texto2">
+                    <p>Siga Leyendo</p>
+                    <i class="material-icons">play_for_work</i>
+                </a>
+
+                <div class="index_icon">
+                    <img src="img/index2_icon.png" id="index_icon_compu">
+                    <img src="img/index2_icon_tablet.png" id="index_icon_tablet">
+                    <img src="img/index2_icon_mobile.png" id="index_icon_mobile">
+                </div>
+
+                <div class="index_texto">
+                    <img src="img/index2_texto.png" id="index_texto_compu">
+                    <img src="img/index2_texto_tablet.png" id="index_texto_tablet">
+                    <img src="img/index2_texto_mobile.png" id="index_texto_mobile">
+                </div>
+            </div>
+        </div>
+
+        <a href="#header2" id="topBtn">
+            <i class="material-icons-outlined">arrow_drop_up</i>
+        </a>
+
+        <div class="container">
+            <div class="texto" id="texto2">
+                <h1> Situación actual: <i>Panorama Bogotá.</i></h1>
+                <p>El panorama general de la epidemia del <span class="tooltip"
+                        title="Virus de la Inmunodeficiencia Humana">VIH</span> en el distrito capital ha estado
+                    enmarcado por una serie de políticas públicas que se han ajustado a las necesidades de las
+                    poblaciones más vulnerables. Crear un análisis alrededor de la situación actual de la capital del
+                    país frente al VIH supone una revisión de la historia cercana del virus y su comportamiento. “El
+                    VIH/Sida es un evento de interés en Salud
+                    Pública y todo caso confirmado debe ser notificado de forma individual semanalmente a través del
+                    Sistema de Vigilancia en Salud Pública (SIVIGILA)” (Secretaría Distrital de Salud, 2020a, p. 1) . A
+                    pesar de los múltiples intentos de la
+                    secretaría de salud y el gobierno por reducir las tasas de contagio y lograr las metas frente al
+                    virus, este ha mantenido un crecimiento constante en los últimos diez años. </p>
+                <p>El informe preliminar del segundo trimestre de la situación actual del VIH en la capital data a 17
+                    personas infectadas por cada 100mil habitantes en el 2010. Mientras que el último trimestre del 2019
+                    se cerró con 48 personas contagiadas por
+                    cada 100mil habitantes (Secretaría Distrital de Salud, 2020b, p. 2). Se duplicó la cifra en nueve
+                    años, se triplicará una vez culmine el presente año. </p>
+            </div>
+            <!--mapa VIHx100.000hb localidades-->
+            <div class="bgta"></div>
+            <div class="texto">
+                <div id="juxta"><iframe frameborder="0" class="juxtapose"
+                        src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1a2a12e4-b04f-11eb-b7bf-95443c729a29"></iframe>
+                </div>
+                <p>En el primer trimestre del 2017 se registraron 673 casos nuevos de VIH en la ciudad de Bogotá un
+                    incremento del 2,5% con respecto al total de casos confirmados existentes en la ciudad desde 1985
+                    (Secretaría Distrital de Salud, 2017). Durante
+                    el primer trimestre del 2018 se registraron 772 casos nuevos (Secretaría Distrital de Salud, 2018,
+                    p. 2). Se registraron 993 casos al año siguiente (Secretaría Distrital de Salud, 2019b, p. 2). Desde
+                    el 1 de enero hasta el 31 de marzo
+                    del 2020, en el primer trimestre del año, registramos 1.115 casos confirmados de VIH. En cuatro años
+                    ha habido un incremento exponencial de la relación de casos con respecto al año anterior. </p>
+                <p>En promedio cada año hubo un incremento de casi 1000 casos po sitivos sobre el promedio del anterior
+                    año. Mientras el 2017 lo cerramos con 2321casos nuevos en la ciudad. En el año 2018 y 2019 con 3395
+                    y 4604 casos nuevos respectivamente. En
+                    promedio 55 bogotanos contrajeron VIH por cada 100 mil habitantes. Esta cifra, sube y sube y no deja
+                    de subir. El 88% de los casos registrados son hombres.</p>
+                <p>Aunque el 90% de los encuestados afirma haber tenido algún tipo de información o pedagogía acerca del
+                    VIH, solamente el 58% sabe qué es la profilaxis pos-exposición. </p>
+                <p>Por su parte el distrito está aplicando una serie de estrategias que buscan mitigar la prevalencia
+                    del virus a través de todos los actores implicados. Existe la estrategia de Ponte a Prueba, “la cual
+                    está encaminada a la prevención del VIH
+                    e ITS y el diagnóstico oportuno de estos eventos en el Distrito Capital, así como la disminución del
+                    estigma y la discriminación específicamente en poblaciones con alta vulnerabilidad” (Salud
+                    Colectiva, Gaitán, Castiblanco, & Caicedo,
+                    2019, p. 2).</p>
+                <p>El Plan de Salud Pública de Intervenciones Colectivas (PSPIC) cuenta con una serie de acciones
+                    integrales desarrolladas en los diferentes espacios de vida cotidiana por parte de los equipos de
+                    salud de las subredes quienes son entrenados y
+                    capacitados para el abordaje de las poblaciones claves tendientes a mejorar la salud y calidad de
+                    vida de la población de mayor vulnerabilidad, en aras de dar respuesta entre ellos a la epidemia del
+                    VIH en la Ciudad (Salud Colectiva et
+                    al., 2019, p. 2).</p>
+                <p>Dentro de las acciones que resalta el derecho de petición se encuentra la entrega de condones
+                    masculinos gratuitos en espacios promocionales y preventivos de
+                    <span class="tooltip" title="Infecciones de Transmisión Sexual">ITS</span> con énfasis en
+                    poblaciones vulnerables. Resalta las intervenciones que se realizan a la población
+                    <!--este es el texto que se lee, por donde se abre el tooltip-->
+                    <span class="tooltip" title="El grupo poblacional de Lesbianas, Gays, Bisexuales, Transgénero,
+												Transexuales, Travestis, Transgeneristas e Intersexuales/ Queer.">
+                        LGBTI
+                    </span>, pero no hace énfasis en los grupos poblacionales más vulnerables de esta población: los
+                    hombres que tienen sexo con hombres y las mujeres transgéneras. Es de especial relevancia hacer la
+                    diferencia entre estos subgrupos poblacionales
+                    pues los índices de contagio no son comparables entre las siglas. El VIH no tiene la misma
+                    incidencia que tiene en los hombres gais y en la creación de sus políticas públicas. Distintas
+                    opresiones configuran las necesidades específicas
+                    de cada uno. “Entre los años 2009 y 2019 a razón hombre-mujer ha sido de 6,5 hombres por cada mujer
+                    notificada con VIH” (Secretaría Distrital de Salud, 2019a, p. 7).
+                </p>
+            </div>
+            <!--proporción H/M-->
+            <div class="prop_hm"></div>
+            <div class="texto">
+                <p>Por parte del PSPIC también se realizan asistencias técnicas a docentes desde el componente <span
+                        class="tooltip" title="<ol>
+														<li>Reproductiva</li>
+														<li>Procreativa</li>
+														<li>Erótica</li>
+														<li>Relacional</li>
+														<li>Comunicacional</li>
+														<li>El abordaje del tema con niños, niñas, adolescentes y jóvenes </li>
+														<li>La apropiación de los derechos sexuales y reproductivos como medio
+																para la construcción de ciudadanía y la convivencia pacífica</li>
+												</ol>">Amarte</span> , en los temas de salud sexual y reproductiva. Existen además distintos dispensadores
+                    de condones en la ciudad, en aras de sensibilizar a las poblaciones en el acceso al diagnóstico de
+                    VIH-ITS, identificación y seguimiento
+                    a barreras de acceso y tratamiento oportuno para modificar positivamente las condiciones que
+                    determinan la calidad de vida desde el modelo de atención diferencial reconociendo la vulnerabilidad
+                    y problemáticas de este grupo poblacional
+                    (Salud Colectiva et al., 2019, p. 3). </p>
+                <p>Claro está que estos dispensadores llevan más de cuatro años vacíos. En los baños del parque
+                    nacional, en el CAIDSG - Sebastián Romero, en los centros comerciales cerca a Lourdes al igual que
+                    en distintos sitios de sexo (en) público se colocaron
+                    estos dispensadores. En alianza con Profamilia durante la administración Petro se otorgaban condones
+                    marca MCP a estos sitios de encuentros sexuales. Posteriormente con el primer mandato de Peñaloza
+                    empezaron a repartir condones Tulip
+                    y no se volvieron a llenar los dispensadores públicos, solamente se hacía entrega a los
+                    establecimientos de comercio sexual. A la fecha en la mayoría de establecimientos los condones
+                    tienen un costo, pues el distrito dejó de repartir los
+                    condones gratuitos a la población vulnerable. Ya se le envió un requerimiento a la Secretaría de
+                    Salud preguntando sobre la alianza junto a profamilia y a la fecha no han dado respuesta. </p>
+                <p>El PSPIC también cuenta con la coordinación de encuentro de liderazgo de la Red Distrital VIH-SIDA
+                    que se crea a partir del Acuerdo 143 de 2005 como una via de información y de acceso para todos los
+                    sectores del VIH. La incidencia de la red
+                    está representada más en los centros de atención en salud. Pero, no en las poblaciones vulnerables y
+                    en su comunicación. “con la participación de profesionales de la Salud que hderan los programas en
+                    las EAPB s o Instituciones Promotoras
+                    de Salud en VIH” (Salud Colectiva et al., 2019, p. 4).</p>
+                <!--timeline SGSSS-->
+                <div class="timeline">
+                    <div class="container_timeline left">
+                        <div class="content_timeline">
+                            <h2>1993</h2>
+                            <h1>SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD</h1>
+                            <p>La Ley 100 de 1993, crea el Sistema General de Seguridad Social en Salud –SGSSS- y señala
+                                que éste sistema debe ordenar las instituciones y los recursos necesarios para alcanzar
+                                los objetivos, unificar la normatividad y la planeación
+                                de la seguridad social.</p>
+                        </div>
+                    </div>
+                    <div class="container_timeline right">
+                        <div class="content_timeline">
+                            <h2>2009</h2>
+                            <h5>PORCENTAJE DE AFILIACIÓN AL SGSSS</h5>
+                            <table>
+                                <tr>
+                                    <th>Tipo de régimen</th>
+                                    <th>Porcentaje</th>
+                                </tr>
+                                <tr>
+                                    <td>Régimen Contributivo</td>
+                                    <td>33,9%</td>
+                                </tr>
+                                <tr>
+                                    <td>Régimen Subsidiado</td>
+                                    <td>62,2%</td>
+                                </tr>
+                                <tr>
+                                    <td>No Afiliado</td>
+                                    <td>3,8%</td>
+                                </tr>
+                            </table>
+                            <p>(Lopera Medina, Martínez Escalante, Y Ray Einarson, 2011, p. 83)</p>
+                        </div>
+                    </div>
+                    <div class="container_timeline left">
+                        <div class="content_timeline">
+                            <h2>2019</h2>
+                            <h1>PORCENTAJE DE AFILIACIÓN AL SGSSS</h1>
+
+                            <table>
+                                <tr>
+                                    <th>Tipo de régimen</th>
+                                    <th>Porcentaje</th>
+                                </tr>
+                                <tr>
+                                    <td>Régimen Contributivo</td>
+                                    <td>68%</td>
+                                </tr>
+                                <tr>
+                                    <td>Régimen Subsidiado</td>
+                                    <td>15%</td>
+                                </tr>
+                                <tr>
+                                    <td>No Afiliado</td>
+                                    <td>12%</td>
+                                </tr>
+                            </table>
+
+                            <p>(Secretaría Distrital de Salud, 2019, p. 6)</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <p id="pienso-excito">Por su parte, la Secretaría Distrital de Salud creó la campaña comunicativa de <a
+                        href="http://www.saludcapital.gov.co/Paginas2/Pienso_luego_excito.aspx" target="_blank">Pienso,
+                        luego excito</a>, la cual busca promover una sexualidad saludable
+                    y segura mediante tres ejes. Promoción de pruebas para detectar infecciones de transmisión sexual
+                    (ITS), prevención de su transmisión y desmitificación de las creencias erradas sobre las ITS. La
+                    campaña consta de un <span class="tooltip" data-tooltip-content="#videoPLE"> video</span>
+                    promocional que incentiva al uso de protección, <span class="tooltip" id="audioPLE">una cuña
+                        radial</span> y una galería fotográfica que desmitifica tabús sexuales.</p>
+                <div class="tooltip_templates"><span id="videoPLE"><iframe width=" 560" height="315"
+                            src="https://www.youtube.com/embed/GoeZ0N9Z8f8" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></span></div>
+                <div class="tooltip_templates"><span id="audioPLE"> <audio id="beep-one" preload="auto">
+                            <source src="audio/pienso_luego_excito.mp3" controls>
+                            <source src="audio/pienso_luego_excito.mp3" controls> Tu navegador no
+                            soporta los
+                            audios.
+                        </audio></span></div>
+
+
+
+
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 12</div>
+                        <img src="img/PLE_1.jpg">
+                        <p>Pienso Luego Excito</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 12</div>
+                        <img src="img/PLE_2.jpg">
+                        <p>Caption Two</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 12</div>
+                        <img src="img/PLE_3.jpg">
+                        <p>Mito 1</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 12</div>
+                        <img src="img/PLE_4.jpg">
+                        <p>Mito 2</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 12</div>
+                        <img src="img/PLE_5.jpg">
+                        <p>Mito 3</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 12</div>
+                        <img src="img/PLE_6.jpg">
+                        <p>Mito 4</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 12</div>
+                        <img src="img/PLE_7.jpg">
+                        <p>Mito 5</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 12</div>
+                        <img src="img/PLE_8.jpg">
+                        <p>Mito 6</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 12</div>
+                        <img src="img/PLE_9.jpg">
+                        <p>Mito 7</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">10 / 12</div>
+                        <img src="img/PLE_10.jpg">
+                        <p>Mito 8</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">11 / 12</div>
+                        <img src="img/PLE_11.jpg">
+                        <p>Mito 9</p>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">12 / 12</div>
+                        <img src="img/PLE_12.jpg">
+                        <p>Mito 10</p>
+                    </div>
+
+
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <div class="puntos">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                    <span class="dot" onclick="currentSlide(11)"></span>
+                    <span class="dot" onclick="currentSlide(12)"></span>
+                </div>
+                <br>
+                <br>
+                <h1 id="covid">Covid-19</h1>
+                <p>La pandemia mundial del COVID-19 nos ha afectado a todos en niveles distintos. Esta ha supeditado que
+                    todas las prácticas sociales que estábamos acostumbrados a tener se rompieran de manera drástica. El
+                    distanciamiento social no solo nos ha
+                    limitado a estar a merced de los medios informativos tradicionales, sino que, el miedo que toda la
+                    situación ha impuesto en todos nosotros trae recuerdos de una epidemia por virus que también azotó
+                    el planeta hace unos años. La discriminación
+                    hacia los portadores e infectados es cada vez mayor y los estigmas sociales alrededor de las
+                    poblaciones vulnerables se hace cada vez más y más evidente.
+                </p>
+                <p>La organización mundial de la salud advirtió que las metas pactadas para mitigar el VIH en 2020 no se
+                    podrán alcanzar por la pandemia del Covid-19 (Organización Mundial de la Salud, 2020). Para julio
+                    del 2020 se estimaba que 73 naciones corren
+                    peligro de agotar la existencia de ciertos medicamentos para el VIH en su territorio. 24 ya han
+                    notificado a la organización mundial de la salud que se encuentran en niveles críticos de
+                    abastecimiento de los antirretrovirales (Organización
+                    Mundial de la Salud, 2020). Según la OMS esto significa que alrededor del 33% de las personas
+                    seropositivas alrededor del mundo estarían en riesgo. </p>
+
+                <div id="menu">
+                    <div class="flip-card">
+                        <a href="index.html">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/1.png">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="img/2.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flip-card">
+                        <a href="index2.html">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/3.png">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="img/4.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flip-card">
+                        <a href="index3.html">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/5.png">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="img/6.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flip-card">
+                        <a href="index4.html">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/7.png">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="img/8.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flip-card">
+                        <a href="index5.html">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/9.png">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="img/10.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flip-card">
+                        <a href="index6.html">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/11.png">
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="img/12.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <button class="openbtn" id="main" onclick="menu()">
+                <i class="material-icons-outlined">apps</i>
+            </button>
+
+
+
+            <div class="topnav" id="myTopnav">
+                <!--.main-menu-->
+
+                <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="menu()"><i
+                        class="material-icons-outlined">close</i></a>
+
+                <a href="index2.html" class="activa">
+                    <i class="material-icons-outlined">home_work</i>
+                    <p>Bogotá</p>
+                </a>
+
+                <div class="vl"></div>
+
+                <div class="vl2"></div>
+
+                <div id="myLinks">
+
+                    <a href="index.html"><i class="material-icons-outlined">wifi</i>
+                        <h2>I</h2>
+                        <p>VIHdas Conectadas</p>
+                    </a>
+
+                    <a href="index2.html" class="dropbtn"><i class="material-icons-outlined">home_work</i>
+                        <h2>II</h2>
+                        <p>Panorama Bogotá</p>
+                    </a>
+
+                    <a href="javascript:void(0)" class="btn" onclick="dropFunction3()"><i
+                            class="material-icons-outlined">expand_less</i></a>
+
+                    <div id="myDropdown3" class="dropdown-content">
+
+                        <a href="#covid"><i class="fas fa-virus"></i>
+                            <p>Covid-19</p>
+                        </a>
+                    </div>
+
+                    <a href="index3.html"><i class="material-icons-outlined">insights</i>
+                        <h2>III</h2>
+                        <p>Hazte la prueba</p>
+                    </a>
+
+                    <a href="index4.html"><i class="material-icons-outlined">healing</i>
+                        <h2>IV</h2>
+                        <p>Estigma</p>
+                    </a>
+
+                    <a href="index5.html" class="dropbtn">
+
+                        <i class="fas fa-mars-double"></i>
+                        <h2>V</h2>
+                        <p>HSH</p>
+                    </a>
+
+                    <a href="javascript:void(0)" class="btn" onclick="dropFunction()"><i
+                            class="material-icons-outlined">expand_less</i></a>
+
+                    <div id="myDropdown" class="dropdown-content">
+
+                        <a href="index5.html"><i class="material-icons-outlined">local_fire_department</i>
+                            <p>HSH</p>
+                        </a>
+
+                        <a href="index5.html#practicas"><i class="material-icons-outlined">warning</i>
+                            <p>Prácticas de riesgo</p>
+                        </a>
+
+                        <a href="index5.html#apelo"><i class="fas fa-biohazard"></i>
+                            <p>Barebacking</p>
+                        </a>
+
+                        <a href="index5.html#drogas"><i class="material-icons-outlined">flash_on</i>
+                            <p>Rota el popper</p>
+                        </a>
+
+                        <a href="index5.html#parejas"><i class="material-icons-outlined">sports_kabaddi</i>
+                            <p>Múltiples parejas sexuales</p>
+                        </a>
+
+                        <a href="index5.html#grindr"><i class="material-icons-outlined">screen_lock_portrait</i>
+                            <p>Grindr y Tinder</p>
+                        </a>
+
+                        <a href="index5.html#twitter"><i class="fab fa-twitter"></i>
+                            <p>Twitter</p>
+                        </a>
+
+                        <a href="index5.html#sitios"><i class="material-icons-outlined">hot_tub</i>
+                            <p>Twitter</p>
+                        </a>
+
+                    </div>
+
+
+                    <a href="index6.html" class="dropbtn">
+                        <i class="material-icons-outlined">done_all</i>
+                        <h2>VI</h2>
+                        <p>La Respuesta</p>
+                    </a>
+
+                    <a href="javascript:void(0)" class="btn" onclick="dropFunction2()"><i
+                            class="material-icons-outlined">expand_less</i></a>
+
+                    <div id="myDropdown2" class="dropdown-content">
+
+                        <a href="index6.html"><i class="fas fa-ribbon"></i>
+                            <p>La Respuesta</p>
+                        </a>
+
+                        <a href="index6.html#pep"><i class="fas fa-capsules"></i>
+                            <p>Post day del VIH</p>
+                        </a>
+
+                        <a href="index6.html#prep"><i class="fas fa-tablets"></i>
+                            <p>PrEP</p>
+                        </a>
+
+                        <a href="index6.html#indetec"><i class="material-icons-outlined">person_add_alt_1</i>
+                            <p>Indetectable</p>
+                        </a>
+
+                        <a href="index6.html#otros"><i class="material-icons-outlined">security</i>
+                            <p>Otros métodos de barrera</p>
+                        </a>
+
+                    </div>
+                </div>
+
+                <a id="on-offdark">
+
+                    <div class="toggle toggle--daynight">
+                        <input type="checkbox" id="toggle--daynight" class="toggle--checkbox">
+                        <label class="toggle--btn" for="toggle--daynight"><span class="toggle--feature"></span></label>
+                    </div>
+                    <i class="material-icons-outlined">brightness_3</i>
+                    <p>Modo Oscuro</p>
+
+
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=573506144932&text=VIHdas%20Conectadas%20es%20un%20producto%20multimedia%20realizado%20por%20Juan%20Camilo%20Su%C3%A1rez%20Ramirez%2C%20para%20optar%20por%20el%20t%C3%ADtulo%20de%20Periodismo%20y%20Opini%C3%B3n%20P%C3%BAblica%20en%20la%20Universidad%20del%20Rosario.%20Por%20favor%20ind%C3%ADcanos%20tu%20nombre%20y%20en%20c%C3%B3mo%20te%20podemos%20colaborar.%20"
+                    id="floatBtn" target="_blank"><i class="fab fa-whatsapp"></i>
+                    <p>Contáctenos</p>
+                </a>
+
+
+
+                <a href="javascript:void(0);" class="iconMenu" onclick="menu()"><i
+                        class="material-icons-outlined">apps</i></a>
+
+            </div>
+
+
+            <footer>
+                <div>
+                    <span class="logo">VIHdas Conectadas</span>
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <div class="link-cat" onclick="footerToggle(this)">
+                            <span class="footer-toggle"></span>
+                            <span class="footer-cat">Home</span>
+                        </div>
+                        <ul class="footer-cat-links">
+                            <li><a href="index.html"><span>VIHdas Conectadas</span></a></li>
+                            <li><a href="index3.html"><span>Hazte la prueba</span></a></li>
+                            <li><a href="index4.html"><span>Estigma</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class="link-cat" onclick="footerToggle(this)">
+                            <span class="footer-toggle"></span>
+                            <span class="footer-cat">Panorama Bogotá</span>
+                        </div>
+                        <ul class="footer-cat-links">
+                            <li><a href="index2.html"><span>General</span></a></li>
+                            <li><a href="index2.html#covid"><span>Covid-19</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class="link-cat" onclick="footerToggle(this)">
+                            <span class="footer-toggle"></span>
+                            <span class="footer-cat">Hombres que tienen sexo con hombres</span>
+                        </div>
+                        <ul class="footer-cat-links">
+                            <li><a href="index5.html"><span>HSH</span></a></li>
+                            <li><a href="index5.html#practicas"><span>Prácticas de riesgo</span></a>
+                            </li>
+                            <li><a href="index5.html#apelo"><span>Barebacking</span></a></li>
+                            <li><a href="index5.html#drogas"><span>Rota el popper</span></a></li>
+                            <li><a href="index5.html#parejas"><span>Múltiples parejas
+                                        sexuales</span></a></li>
+                            <li><a href="index5.html#grindr"><span>Grinde y machoBB</span></a></li>
+                            <li><a href="index5.html#twitter"><span>Twitter</span></a></li>
+                            <li><a href="index5.html#sitios"><span>Sitios de sexo en
+                                        público</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <div class="link-cat" onclick="footerToggle(this)">
+                            <span class="footer-toggle"></span>
+                            <span class="footer-cat">La respuesta</span>
+                        </div>
+                        <ul class="footer-cat-links">
+                            <li><a href="index6.html"><span>La respuesta</span></a></li>
+                            <li><a href="index6.html#pep"><span>Post day del VIH</span></a></li>
+                            <li><a href="index6.html#prep"><span>PrEP</span></a></li>
+                            <li><a href="index6.html#indetec"><span>Indetectable</span></a></li>
+                            <li><a href="index6.html#otros"><span>Otros métodos de
+                                        barrera</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3" id="newsletter">
+                        <span>Suscríbete para estar al día</span>
+                        <form id="subscribe">
+                            <input type="email" id="subscriber-email" placeholder="Ingresa tu correo electrónico" />
+                            <input type="submit" value="Enviar" id="btn-scribe" />
+                        </form>
+
+                        <div class="social-links social-2">
+                            <a href="https://goo.gl/maps/DYwnzBxks8iF2DWB6" target="_blank"><i
+                                    class="fas fa-map-pin"></i></a>
+                            <a href="mailto:juancam.suarez@urosario.edu.co" target="_blank"><i
+                                    class="far fa-envelope"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=573506144932&text=VIHdas%20Conectadas%20es%20un%20producto%20multimedia%20realizado%20por%20Juan%20Camilo%20Su%C3%A1rez%20Ramirez%2C%20para%20optar%20por%20el%20t%C3%ADtulo%20de%20Periodismo%20y%20Opini%C3%B3n%20P%C3%BAblica%20en%20la%20Universidad%20del%20Rosario.%20Por%20favor%20ind%C3%ADcanos%20tu%20nombre%20y%20en%20c%C3%B3mo%20te%20podemos%20colaborar.%20"
+                                target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.urosario.edu.co" target="_blank"><i class="fas fa-book-reader"></i></a>
+                            <a href="" target="_blank"><i class="fab fa-tumblr"></i></a>
+                            <a href="" target="_blank"><i class="fab fa-reddit-alien"></i></a>
+                        </div>
+
+                        <div id="address">
+                            <span>Nuestra UR</span>
+                            <ul>
+                                <li>
+                                    <i class="far fa-building"></i>
+                                    <div>La candelaria<br /> Calle 12C N° 6 - 25 Bogotá, Colombia
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-gopuram"></i>
+                                    <div><a href="https://repository.urosario.edu.co/bitstream/handle/10336/4503/PoliticaTratamientoProteccionDatosPersonales.pdf?sequence=12&_ga=2.12101812.148175864.1620502829-1356835172.1620502829"
+                                            target="_blank">Politica de Tratamiento y Proteccion de
+                                            Datos Personales</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="social-links social-1 col-6">
+                        <a href="https://goo.gl/maps/DYwnzBxks8iF2DWB6" target="_blank"><i
+                                class="fas fa-map-pin"></i></a>
+                        <a href="mailto:juancam.suarez@urosario.edu.co" target="_blank"><i
+                                class="far fa-envelope"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=573506144932&text=VIHdas%20Conectadas%20es%20un%20producto%20multimedia%20realizado%20por%20Juan%20Camilo%20Su%C3%A1rez%20Ramirez%2C%20para%20optar%20por%20el%20t%C3%ADtulo%20de%20Periodismo%20y%20Opini%C3%B3n%20P%C3%BAblica%20en%20la%20Universidad%20del%20Rosario.%20Por%20favor%20ind%C3%ADcanos%20tu%20nombre%20y%20en%20c%C3%B3mo%20te%20podemos%20colaborar.%20"
+                            target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.urosario.edu.co" target="_blank"><i class="fas fa-book-reader"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-tumblr"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-reddit-alien"></i></a>
+                    </div>
+                </div>
+                <div id="copyright">
+                    &copy; Universidad del Rosario 2021
+                </div>
+                <div id="owner">
+                    <span>
+                        Este es un producto multimedia diseñado por <a href="https://www.codingtuting.com">Juan
+                            Camilo Suárez Ramirez</a>
+                    </span>
+                </div>
+            </footer>
+        </div>
+
+        <!-- partial -->
+        <!--script jquery-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <!--script tooltipster-->
+        <script type="text/javascript" src="js/tooltipster.bundle.min.js">
+        </script>
+        <!--script mío-->
+        <script type="text/javascript" src="js/script.js"></script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "flex";
+                dots[slideIndex - 1].className += " active";
+            };
+
+            var beepOne = $("#beep-one")[0];
+            $("#pienso-excito-audio")
+                .mouseenter(function () {
+                    beepOne.play();
+                    $("#pienso-excito-audio").css({
+                        "backgroundColor": "var(--in)",
+                    });
+                }).mouseleave(function () {
+                    $("#pienso-excito-audio").css({
+                        "backgroundColor": "var(--0)",
+                    });
+                });
+        </script>
+
+
+
+
+
+    </body>
+
+</html>
